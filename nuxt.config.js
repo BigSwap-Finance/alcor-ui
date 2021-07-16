@@ -178,7 +178,7 @@ module.exports = {
   }
 },
 
-generate:{
+generate: {
       done(generator){
         // Copy dist files to public/_nuxt
         if (generator.nuxt.options.dev === false && generator.nuxt.options.mode === 'spa') {
@@ -190,4 +190,4 @@ generate:{
         }
         console.log("After generate dist folder");        
       }
-    }
+    },
