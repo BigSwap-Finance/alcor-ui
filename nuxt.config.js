@@ -176,7 +176,7 @@ module.exports = {
       ttl: 60
     }
   }
-}
+},
 
 generate:{
       done(generator){
