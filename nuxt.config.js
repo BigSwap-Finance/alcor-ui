@@ -189,5 +189,5 @@ generate: {
             removeSync(generator.nuxt.options.generate.dir) //Delete 'Dist' folder from Laravel root
         }
         console.log("After generate dist folder");        
-      }
-    },
+    }, []);
+}
